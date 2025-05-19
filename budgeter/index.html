@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Budgeter App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Budgeter App</h1>
+    <form id="budgetForm">
+      <label>Current Bank Balance: <input type="number" id="bankBalance" required></label>
+      <label>Cash ISA Balance: <input type="number" id="cashISA" required></label>
+      <label>Recent Pay: <input type="number" id="recentPay" required></label>
+      <button type="submit">Calculate</button>
+    </form>
+    <div class="results" id="results"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
